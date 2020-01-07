@@ -1,0 +1,68 @@
+ls -R             
+.:
+grub.txt  kernel-linux.txt  proyek-01
+
+----------------------------------------
+ls -al            
+total 40
+drwxrwxr-x 4 zilong zilong  4096 Jan  7 10:47 .
+drwxr-xr-x 7 zilong zilong  4096 Jan  7 10:45 ..
+-rw------- 1 root   root   12288 Jan  7 10:48 .cmdline.txt.swp
+-rw-rw-r-- 1 zilong zilong    58 Jan  7 10:22 .env
+drwxr-xr-x 7 root   root    4096 Jan  7 10:40 .git
+-rw-r--r-- 1 root   root    1254 Jan  7 10:18 grub.txt
+-rw-r--r-- 1 root   root      87 Jan  7 10:36 kernel-linux.txt
+drwxr-xr-x 3 root   root    4096 Jan  7 10:39 proyek-01
+----------------------------------------
+ls -a             
+.  ..  .cmdline.txt.swp  .env  .git  grub.txt  kernel-linux.txt  proyek-01
+----------------------------------------
+ifconfig          
+enp2s0    Link encap:Ethernet  HWaddr 54:e1:ad:6d:7b:28  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:9453 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9453 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:801184 (801.1 KB)  TX bytes:801184 (801.1 KB)
+
+wlp3s0    Link encap:Ethernet  HWaddr f8:28:19:d5:0a:75  
+          inet addr:192.168.1.137  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::2915:cd8e:220f:cb15/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:671064 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:555213 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:732400432 (732.4 MB)  TX bytes:78577970 (78.5 MB)
+-----------------------------------------
+date                                                                                     
+Sel Jan  7 10:51:46 WIB 2020
+-----------------------------------------
+ps                                                                             
+  PID TTY          TIME CMD
+ 3588 pts/17   00:00:00 zsh
+ 9964 pts/17   00:00:00 ps
+-----------------------------------------
+pwd                                                                                    
+/home/zilong/Desktop/Kemampuan Dasar
+-----------------------------------------
+whoami                                                                                 
+zilong
+-----------------------------------------
+apt-get                                                                                  
+apt 1.2.32 (amd64)
+Usage: apt-get [options] command
+       apt-get [options] install|remove pkg1 [pkg2 ...]
+       apt-get [options] source pkg1 [pkg2 ...]
+----------------------------------------
+man                                                                                    
+What manual page do you want?
+

@@ -1,0 +1,2 @@
+lokasi kernel : /usr/src/linux-headers/linux-headers-4.15.0-72/kernel
+fungsi kernel : 
